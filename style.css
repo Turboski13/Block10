@@ -7,11 +7,11 @@
     'box1 box2 box3'
     'box4 box4 box4'
     'bottomline bottomline bottomline';
-    gap: 10px;
+    gap: 1rem;
     width: 80rem;
     height: 50rem;
-    row-gap: 15px;
-    column-gap: 15px;
+    row-gap: 1rem;
+    column-gap: 1rem;
 }
 .box1 {
     display: flex;
@@ -20,8 +20,7 @@
     grid-area: box1;
     background-color: rgb(57, 163, 149);
     width: auto;
-    padding: 15px;
-    border: 10px white solid;
+    border: 0.5rem white solid;
 }
 
 .box2 {
@@ -31,8 +30,7 @@
     grid-area: box2;
    background-color: rgb(57, 163, 149);
     width: auto;
-    padding: 15px;
-    border: 10px white solid;
+    border: 0.5rem white solid;
 }
 
 .box3 {
@@ -42,8 +40,7 @@
     grid-area: box3;
    background-color: rgb(74, 165, 153);
     width: auto;
-    padding: 15px;
-    border: 10px white solid;
+    border: 0.5rem white solid;
 }
 
 .box4 {
@@ -52,19 +49,18 @@
     justify-content: center;
     grid-area: box4;
     background-color: rgb(74, 165, 153);
-    padding: 5px;
-    border: 10px white solid;
+    border: 0.5rem white solid;
 }
 
 .bottomline {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightgreen;
-    padding: 5px;
+    background-color: rgb(136, 219, 88);
+    padding: 1rem;
     position: relative;
-    height: 30px;
-    bottom: 15px;
+    height: 2rem;
+    bottom: 1rem;
     width: auto;
     grid-area: bottomline;
 }
@@ -72,24 +68,24 @@
 .triangle1 {
   width: 0;
   height: 0;
-  border-left: 100px solid transparent;
-  border-right: 150px solid transparent;
-  border-bottom: 300px solid lightgreen;
+  border-left: 9rem solid transparent;
+  border-right: 9rem solid transparent;
+  border-bottom: 20rem solid rgb(136, 219, 88);
   z-index: 4;
   position: absolute;
-top: 440px; 
-    left: 1000px;
+    top: 25rem; 
+    left: 60rem;
 }
 .triangle2 {
     width: 0;
   height: 0;
-  border-left: 150px solid transparent;
-  border-right: 150px solid transparent;
-  border-bottom: 400px solid darkgreen;
+  border-left: 15rem solid transparent;
+  border-right: 15rem solid transparent;
+  border-bottom: 35rem solid darkgreen;
   z-index: 3;
   position: absolute;
-    top: 340px; 
-    left: 750px;
+    top: 10rem; 
+    left: 40rem;
 }
 
 .largeyellowcircle {
@@ -98,12 +94,12 @@ top: 440px;
     justify-content: center;
     border-radius: 50%;
     background-color: yellow;
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
     z-index: 2;
     position: absolute;
-    top: 50px; 
-    left: 250px;
+    top: 3rem; 
+    left: 15rem;
 
 }
 
@@ -114,12 +110,12 @@ top: 440px;
     grid-area: box4;
     border-radius: 50%;
     background-color: yellow;
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     z-index: 2;
     position: absolute;
-  top: 300px; 
-  left: 200px;
+  top: 20rem; 
+  left: 15rem;
 }
 .largeredcircle {
     display: flex;
@@ -128,12 +124,12 @@ top: 440px;
     grid-area: box4;
     border-radius: 50%;
     background-color:darksalmon;
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
     z-index: 2;
     position: absolute;
-    top: 200px; 
-    left: 375px;
+    top: 10rem; 
+    left: 25rem;
 }
 .smallredcircle1 {
     display: flex;
@@ -142,12 +138,12 @@ top: 440px;
     grid-area: box4;
     border-radius: 50%;
     background-color:darksalmon;
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     z-index: 2;
     position: absolute;
-    top: 50px; 
-    left: 50px;
+    top: 3rem; 
+    left: 3rem;
     }
 
 .smallredcircle2 {
@@ -157,12 +153,12 @@ top: 440px;
     grid-area: box4;
     border-radius: 50%;
     background-color:darksalmon;
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     z-index: 2;
     position: absolute;
-    top: 220px; 
-    left: 50px;
+    top: 12rem; 
+    left: 3rem;
     
 }
 .smallredcircle3 {
@@ -172,11 +168,11 @@ top: 440px;
     grid-area: box4;
     border-radius: 50%;
     background-color:darksalmon;
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     z-index: 2;
     position: absolute;
-    top: 60px; 
-    left: 500px;
+    top: 3rem; 
+    left: 35rem;
     
 }
