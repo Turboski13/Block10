@@ -1,0 +1,135 @@
+.container{
+    display: grid;
+    background-color:rgb(57, 150, 130);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10fr 20fr 1fr;
+    grid-template-areas:  
+    'box1 box2 box3'
+    'box4 box4 box4'
+    'bottomline bottomline bottomline';
+    gap: 10px;
+    width: 80rem;
+    height: 50rem;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box1;
+    background-color: rgb(57, 163, 149);
+    width: 30%;
+    padding: 5px;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box2;
+   background-color: rgb(57, 163, 149);
+    width: 30%;
+    padding: 5px;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box3;
+   background-color: rgb(74, 165, 153);
+    width: 30%;
+    padding: 5px;
+}
+
+.box4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box4;
+    background-color: rgb(74, 165, 153);
+    padding: 5px;
+}
+
+.bottomline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box4;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+.triangle1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box4;
+    background-color: lightgreen;
+}
+.triangle2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box4;
+    background-color: darkgreen;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid green;
+    border-top: 20px solid transparent;
+}
+
+.largeyellowcircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box4;
+    border-radius: 50%;
+    background-color: yellow;
+     
+}
+
+.smallyellowcircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box4;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.largeredcircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box4;
+    border-radius: 50%;
+    background-color:darksalmon;
+}
+.smallredcircle1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box4;
+    border-radius: 50%;
+    background-color:darksalmon;
+    }
+
+.smallredcircle2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box4;
+    border-radius: 50%;
+    background-color:darksalmon;
+    
+}
+.smallredcircle3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: box4;
+    border-radius: 50%;
+    background-color:darksalmon;
+    
+}
